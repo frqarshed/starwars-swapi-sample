@@ -2,7 +2,7 @@
 
 # StarWars Sample Application
 
-This is the implementation of StarWars SDK.
+This is the implementation of [StarWars SDK for Android](https://github.com/frqarshed/starwars-swapi-sdk)
 
 # Getting started
 
