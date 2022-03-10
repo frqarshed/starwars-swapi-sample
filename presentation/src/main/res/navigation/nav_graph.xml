@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainTaskFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.sample.myapplication.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_mainTaskFragment"
+            app:destination="@id/mainTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainTaskFragment"
+        android:name="com.sample.myapplication.ui.main.tasks.MainTaskFragment"
+        android:label="MainTaskFragment"
+        tools:layout="@layout/main_task_fragment">
+        <action
+            android:id="@+id/action_mainTaskFragment_to_task1Fragment"
+            app:destination="@id/task1Fragment" />
+        <action
+            android:id="@+id/action_mainTaskFragment_to_task2Fragment"
+            app:destination="@id/task2Fragment" />
+        <action
+            android:id="@+id/action_mainTaskFragment_to_task3Fragment"
+            app:destination="@id/task3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/task1Fragment"
+        android:name="com.sample.myapplication.ui.main.tasks.task1.Task1Fragment"
+        android:label="Task1Fragment"
+        tools:layout="@layout/task_1_fragment" />
+    <fragment
+        android:id="@+id/task2Fragment"
+        android:name="com.sample.myapplication.ui.main.tasks.task2.Task2Fragment"
+        android:label="Task2Fragment"
+        tools:layout="@layout/task_2_fragment" />
+    <fragment
+        android:id="@+id/task3Fragment"
+        android:name="com.sample.myapplication.ui.main.tasks.task3.Task3Fragment"
+        android:label="Task3Fragment"
+        tools:layout="@layout/task_3_fragment" />
+</navigation>
