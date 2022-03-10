@@ -8,31 +8,33 @@ This is the implementation of StarWars SDK.
 
 The Sample application demonstrates the tasks that were assigned which are as follows.
 
-- Eye color of 5 different people from the Star Wars franchise. 
+- Eye color of 5 different people from the Star Wars franchise.
 - Population of 5 different planets that list their population and climate.
 - All the films, their title, opening crawl, and the year they were released.
 
-# Implementation 
+# Implementation
 
 The main page displays the option to select each task.
 
-![Main Page](images/Starwars_Main.png)
+<img src="images/Starwars_Main.png" alt="Starwars_Main" width="200"/>
+
 
 ### Tasks
 #### Task 1
 Task 1 demonstrates the information i.e. Name and Eye Color of 5 people from the movie.
-![Task 1](images/Starwars_Task1.png)
 
+<img src="images/Starwars_Task1.png" alt="Starwars_Task1" width="200"/>
 
 #### Task 2
 Task 2 demonstrates the information i.e. Name and Population and Climate of planets from the movie.
-![Task 2](images/Starwars_Task2.png)
+
+<img src="images/Starwars_Task2.png" alt="Starwars_Task2" width="200"/>
 
 
 #### Task 3
 Task 3 presents the information i.e. Name, Opening Crawl, and Release Date of all the movies.
-![Task 3](images/Starwars_Task3.png)
 
+<img src="images/Starwars_Task3.png" alt="Starwars_Task3" width="200"/>
 
 ## Future Work
 
